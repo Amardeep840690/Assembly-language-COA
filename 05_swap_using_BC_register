@@ -1,0 +1,18 @@
+
+;<Program title>
+
+lxi b,0000h;
+ldax b;
+
+mov d,a;
+
+lxi b,0001h;
+ldax b;
+
+sta 0000h;
+
+mov a,d;
+sta 0001h;
+
+
+hlt

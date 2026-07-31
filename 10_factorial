@@ -1,0 +1,22 @@
+
+;<Program title>
+
+mvi a,5
+sta 0000h
+mov b,a
+mov c,a
+dcr c
+
+outer: mov d,c
+mvi a,0
+inner: add b
+dcr d
+jnz inner
+
+mov b,a
+dcr c
+jnz outer
+
+sta 0001h
+
+hlt

@@ -1,0 +1,18 @@
+
+;<Program title>
+
+lda 0000h
+mov b,a
+lda 0001h
+mov d,a
+
+mvi a,0
+
+loop: add d
+
+dcr b
+jnz loop
+
+sta 0002h
+
+hlt 

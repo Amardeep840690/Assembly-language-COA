@@ -1,0 +1,17 @@
+
+;<Program title>
+
+mvi a,15;
+sta 0000h;
+
+mvi a,10;
+sta 0001h;
+
+mov b,a;
+
+lda 0000h;
+sub b;
+
+sta 0002h;
+
+hlt
