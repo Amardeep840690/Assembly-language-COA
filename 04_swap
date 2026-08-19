@@ -1,5 +1,5 @@
 
-;<Program title>
+;<swap two number>
 
 lda 0001h;
 
@@ -12,5 +12,5 @@ sta 0001h;
 mov a,b;
 
 sta 0000h;
-
+s
 hlt

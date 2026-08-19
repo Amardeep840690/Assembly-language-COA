@@ -1,5 +1,5 @@
 
-;<Program title>
+;<Swap two number using HL register pair>
 
 lxi h,0000h;
 mov a,m;

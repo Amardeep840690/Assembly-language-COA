@@ -1,5 +1,5 @@
 
-;<Program title>
+;<factorial of a number>
 
 mvi a,5
 sta 0000h
@@ -9,6 +9,7 @@ dcr c
 
 outer: mov d,c
 mvi a,0
+
 inner: add b
 dcr d
 jnz inner

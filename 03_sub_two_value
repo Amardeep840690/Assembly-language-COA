@@ -1,5 +1,5 @@
 
-;<Program title>
+;<subtract two value and store the result in memory>
 
 mvi a,15;
 sta 0000h;

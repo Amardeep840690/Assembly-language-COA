@@ -1,5 +1,5 @@
 
-;<Program title>
+;<Swap two number using DE register pair>
 
 lxi d,0000h;
 ldax d;

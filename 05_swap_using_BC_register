@@ -1,5 +1,5 @@
 
-;<Program title>
+;<Swap two number using BC register pair>
 
 lxi b,0000h;
 ldax b;

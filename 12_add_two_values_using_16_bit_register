@@ -1,0 +1,18 @@
+
+;<Add two 16 bit number>
+
+lda 0000h
+mov b,a;
+
+lda 0002h
+add b;
+sta 0004h;
+
+lda 0001h
+mov b,a;
+
+lda 0003h
+add b;
+sta 0006h;
+
+hlt

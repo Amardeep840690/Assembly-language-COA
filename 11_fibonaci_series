@@ -1,0 +1,27 @@
+
+;<fibonaci series>
+
+lda 0000h;
+mov b,a;
+mvi a,1;
+sta 0001h;
+mov c,a;
+
+; take input from memory
+lda 0003h;
+dcr a;
+dcr a;
+mov d,a;
+
+loop: mov a,b
+add c;
+
+mov b,c
+mov c,a
+
+dcr d
+jnz loop
+
+sta 0005h;
+
+hlt

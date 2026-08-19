@@ -1,5 +1,5 @@
 
-;<Program title>
+;<add two values and store the result in memory>
 
 mvi a,10;
 sta 0000h;

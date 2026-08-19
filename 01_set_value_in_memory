@@ -1,5 +1,5 @@
 
-;<Program title>
+;<set value in memory>
 
 mvi a,1;
 sta 0000h;

@@ -1,5 +1,5 @@
 
-;<Program title>
+;<Multiply two number and store the result in memory>
 
 lda 0000h
 mov b,a
